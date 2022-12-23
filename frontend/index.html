@@ -31,7 +31,7 @@
                       <a href="#!">news</a>
                     </li>
                   </ul>
-                  <h2 class="h1"><a class="post-title" href="url 'article' post.slug  ">{{ post.name }}</a></h2>
+                  <h2 class="h1"><a class="post-title" href="{% url 'article' post.slug %}">{{ post.name }}</a></h2>
                   <p class="card-text">{{ post.content }}</p>
                   <div class="content"> <a class="read-more-btn" href="article.html">Read Full Article</a>
                   </div>
