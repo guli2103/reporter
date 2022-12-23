@@ -17,4 +17,7 @@ def article(request, slug):
     return render(request, 'article.html', context) 
 
 def contact(request):
-    return render(request, 'contact.html')         
+    return render(request, 'contact.html')  
+
+def about(request):
+    return render(request, 'about.html')           
