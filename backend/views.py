@@ -23,4 +23,7 @@ def about(request):
     return render(request, 'about.html')      
 
 def travel(request):
-    return render(request, 'travel.html')         
+    return render(request, 'travel.html')  
+
+def terms(request):
+    return render(request, 'terms-conditions.html')           
